@@ -66,3 +66,88 @@ body{
 .jump:hover{
     animation: jump 2s infinite linear
 }
+
+@keyframes d{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-25deg);
+    }
+    75%{
+        transform: rotate(25deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes a{
+    0%{
+        transform: translateX(0);
+    }
+
+    25%{
+        transform: translateX(3px);
+    }
+    75%{
+        transform: translateX(-6px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes n{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1,1.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+
+@keyframes c{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes e{
+    0%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform: scaleX(2);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+span{
+    display: inline-block
+}
+.dance-body:hover .d{
+    animation: d .5s infinite
+}
+.dance-body:hover .a{
+    animation: a .5s infinite
+}
+.dance-body:hover .n{
+    animation: n .5s infinite
+}
+.dance-body:hover .c{
+    animation: c .5s infinite
+}
+.dance-body:hover .e{
+    animation: e .5s infinite
+}
+
