@@ -6,10 +6,10 @@
     background-color: #3498db;
     text-align: center;
     display: flex;
+    padding: 20px;
     /* formatting */
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -33,16 +33,16 @@
 
 @keyframes shake {
     0%{
-        transform: rotate(0deg) translate(0,0);
+        transform: rotate(0deg);
     }
     25%{
-        transform: rotate(-25deg)translate(500px, 0);
+        transform: rotate(-25deg);
     }
     75%{
-        transform: rotate(25deg) scale(2);
+        transform: rotate(25deg);
     }
     100%{
-        transform: rotate(0deg) scale(1) translate(0, 0);
+        transform: rotate(0deg);
     }
 }
 
