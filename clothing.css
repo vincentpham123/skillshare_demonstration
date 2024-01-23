@@ -24,9 +24,9 @@
     transform: rotate(25deg) translate(5px, 50px) scale(.5,2)
 } */
 
-/* .box:hover{
+.box:hover{
     animation: shake 2s infinite linear
-} */
+}
 
 @keyframes shake {
     0%{

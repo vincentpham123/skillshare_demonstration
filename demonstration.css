@@ -6,7 +6,7 @@ body{
     justify-content: center;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 75px;
 
 }
 
@@ -21,6 +21,9 @@ body{
 }
 .container div{
     margin-top: 250px;
+}
+.container div:last-child{
+    margin-bottom: 250px
 }
 @keyframes shrink{
     0%{
@@ -67,7 +70,7 @@ body{
 }
 
 .jump:hover{
-    animation: jump 1.5s infinite linear
+    animation: jump 1.5s infinite ease-in
 }
 
 @keyframes d{
